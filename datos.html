@@ -5,36 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bulma.css">
 </head>
 <body>
-    <!-- <button>
-        <a class="textoboton" href="registro.html">Volver atras</a>
-    </button>
-    <button>
-        <a class="textoboton" href="index.html">Siguiente</a>
-    </button> -->
-    <div class="main">
-        <img class="imagen" src="img/Icono para App.png" width="100" height="100">
-        <h1 class="titulo">APPETS</h1>
-    </div>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-quarter-desktop">
 
-    <div class="main">
-        <h2>Nombre</h2>
-        <input type="text">
+            </div>
+            <div class="column is-half-desktop level">
+                <div class="">
+                    <div class="is-flex is-justify-content-center">
+                        <img class="logo-carga ml-6" src="img/Icono para App.png" />
+                        <h1 class="title is-1 my-6 p-5">APPETS</h1>
+                    </div>
+                </div>
+                <br>
+                <div class="has-text-centered">
+                    <h2 class="title is-4">Nombre</h2>
+                    <input class="input is-rounded" type="text" placeholder="Nombre">
+                </div>
+                <br>
+                <div class="has-text-centered">
+                    <h2 class="title is-4">Raza</h2>
+                    <input class="input is-rounded" type="text" placeholder="Raza">
+                </div>
+                <br>
+                <div class="has-text-centered">
+                    <h2 class="title is-4">Genero</h2>
+                    <select class="genero" name="Genero">
+                        <option>Macho</option>
+                        <option>Hembra</option>
+                    </select>
+                </div>
+            </div>
+            <div class="column is-one-quarter-desktop">
+                
+            </div>
+        </div>
     </div>
-
-    <div class="main">
-        <h2>Raza</h2>
-        <input type="text">
-    </div>
-    <div class="main">
-        <h2>Genero</h2>
-        <select class="genero" name="Genero">
-            <option>Macho</option>
-            <option>Hembra</option>
-        </select>
-    </div>
-
 </body>
 </html>
