@@ -1,0 +1,11 @@
+.button.borde-gris:hover {
+    background-color: transparent;
+    border-color: black;
+    color: black;
+}
+
+.button.borde-gris {
+    border-color: gray;
+    border-style: solid;
+    border-width: 3px;
+}

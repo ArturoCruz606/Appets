@@ -4,29 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/estilonicoguardarenelotro.css">
 </head>
 <body>
-    <div class="main">
-        <img class="imagen" src="img/Icono para App.png" width="100" height="100">
-        <h1 class="titulo">APPETS</h1>
-    </div>
-    <br><br>
-    <div class="main">
-        <h1 class="submain">Seleccione su Mascota</h1>
-        <br>
-        <button>
-            <img src="img/Perro.png">
-        </button>
-        <button>
-            <img src="img/Gato.png">
-        </button>
-    </div>
-    <br><br>
-    <div class="mainconfirmar">
-        <input class="boton" type="submit" value="Confirmar">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-quarter-desktop">
+            </div>
+            <div class="column is-half-desktop level">
+                
+                <div class="is-flex is-justify-content-center mt-6">
+                    <img class="logo-carga ml-6" src="img/Icono para App.png" />
+                    <h1 class="title is-1 my-6 p-5">APPETS</h1>
+                </div>
+                <div class="has-text-centered">
+                    <div class="mt-4">
+                        <h2 class="title is-4">Seleccione su mascota</h2>
+                    </div>
+
+                    <button class="is-focused mt-4">
+                        <img src="img/Perro.png" type="sumbit" width="200" height="200">
+                    </button>
+                    <button class="ml-5">
+                        <img src="img/Gato.png" width="200" height="200">
+                    </button>
+
+                    <input class="button is-rounded is-large borde-gris mt-4" type="submit" value="Confirmar">
+                </div>
+            </div>
+            <div class="column is-one-quarter-desktop">
+                
+            </div>
+        </div>
     </div>
 </body>
 </html>
