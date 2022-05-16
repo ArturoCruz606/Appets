@@ -28,6 +28,12 @@ body {
     border-radius: 10px;
 }
 .button.icon.mascota:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+button.button.icon.mascota:focus {
+    background-color: rgb(75, 255, 47);
     border-color: black;
     color: black;
 }
@@ -35,6 +41,20 @@ body {
     border-radius: 10px;
     height: 10.5em;
     width: 10.5em;
+}
+
+.carga {
+        -webkit-animation: spinAround 500ms infinite linear;
+        animation: spinAround 500ms infinite linear;
+    border: 10px solid #dbdbdb;
+    border-radius: 9999px;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    content: " ";
+    display: block;
+    height: 7em;
+    position: relative;
+    width: 7em;
 }
 /* .titulo {
     font-size: 60px;
