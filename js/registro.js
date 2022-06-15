@@ -12,7 +12,8 @@ agregar_mascota.addEventListener('click', () => {
         raza: raza_mascota.value,
         edad: edad_mascota.value,
         peso: peso_mascota.value,
-        genero: genero_mascota
+        genero: genero_mascota.value
     }
     console.table(mascota)
 })
+

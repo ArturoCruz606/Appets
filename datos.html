@@ -24,28 +24,28 @@
                 </div>
                 <br><br>
                 <div class="has-text-centered">
-                    <img class="mascota-elegida" src="img/Perro.png">
+                    <img id="imgMascota" class="mascota-elegida">
                 </div>
                 <div class="has-text-centered mt-6">
                     <h2 for="nombre_mascota" class="title is-4">Nombre</h2>
-                    <input class="input is-rounded" type="text" id="nombre" placeholder="Nombre">
+                    <input id="nombre" class="input is-rounded" type="text" id="nombre" placeholder="Nombre">
                 </div>
                 <div class="has-text-centered mt-5">
                     <h2 class="title is-4">Raza</h2>
-                    <input class="input is-rounded" type="text" placeholder="Raza">
+                    <input id="raza" class="input is-rounded" type="text" placeholder="Raza">
                 </div>
                 <div class="has-text-centered mt-5">
                     <h2 class="title is-4">Edad</h2>
-                    <input class="input is-rounded" type="number" placeholder="Edad">
+                    <input id="edad" class="input is-rounded" type="number" placeholder="Edad">
                 </div>
                 <div class="has-text-centered mt-5">
                     <h2 class="title is-4">Peso</h2>
-                    <input class="input is-rounded" type="number" placeholder="Peso">
+                    <input id="peso" class="input is-rounded" type="number" placeholder="Peso">
                 </div>
                 <div class="has-text-centered mt-5">
                     <h2 class="title is-4">Genero</h2>
                     <div class="select is-rounded is-medium">
-                        <select>
+                        <select id="genero">
                             <option>Macho</option>
                             <option>Hembra</option>
                         </select>
@@ -55,8 +55,8 @@
                     <a href="registro.html">
                         <button class="button is-rounded borde-gris">Atras</button>
                     </a>
-                    <a href="index.html">
-                        <button class="button is-rounded borde-gris" id="siguiente">Siguiente</button>
+                    <a id="siguiente" href="index.html" target="_blank">
+                        <button class="button is-rounded borde-gris" >Siguiente</button>
                     </a>
                 </div>
             </div>
@@ -64,6 +64,6 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="registro.js"></script>
 </body>
 </html>
