@@ -56,6 +56,10 @@ button.button.icon.mascota:focus {
     position: relative;
     width: 7em;
 }
+.input.is-mas-chico{
+    font-size: 1rem;
+    width: 350px;
+}
 /* .titulo {
     font-size: 60px;
     float: right;

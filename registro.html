@@ -22,33 +22,33 @@
                 </div>
                 <div class="has-text-centered mt-6">
                     <div class="steps" id="stepsDemo">
-                        <div class="step-item is-active is-success">
+                        <div class="step-item is-success is-active" data-step-id="0">
                             <div class="step-marker">1</div>
                             <div class="step-details">
                                 <p class="step-title">Seleccione su mascota</p>
                         </div>
                     </div>
-                    <div class="step-item">
+                    <div class="step-item" data-step-id="1">
                         <div class="step-marker">2</div>
                         <div class="step-details">
                         <p class="step-title">Profile</p>
                     </div>
                     </div>
-                    <div class="step-item">
+                    <div class="step-item" data-step-id="2">
                         <div class="step-marker">3</div>
                         <div class="step-details">
                             <p class="step-title">Social</p>
                         </div>
                     </div>
-                    <div class="step-item">
+                    <div class="step-item" data-step-id="3">
                         <div class="step-marker">4</div>
                         <div class="step-details">
                             <p class="step-title">Finish</p>
                         </div>
                     </div>
                     <div class="steps-content">
-                        <div class="step-content has-text-centered">
-                            <div class="is-flex is-justify-content-center mt-3">
+                        <div class="step-content has-text-centered is-active">
+                            <div class="is-flex is-justify-content-center mt-0">
                                 <h3 id="gatoImg" class="title is-5 mt-4 mr-6 pr-6 mb-5">Gato</h3>
                                 <h3 id="perroImg" class="title is-5 mt-4 ml-6 pl-6 mb-5">Perro</h3>
                             </div>
@@ -66,24 +66,24 @@
                             <div class="has-text-centered">
                                 <img id="imgMascota" class="mascota-elegida">
                             </div>
-                            <div class="has-text-centered mt-6">
-                                <h2 for="nombre_mascota" class="title is-4">Nombre</h2>
-                                <input id="nombre" class="input is-rounded" type="text" id="nombre" placeholder="Nombre">
+                            <div class="has-text-centered mt-6 field is-horizontal">
+                                <h2 for="nombre_mascota" class="title is-4 mr-3">Nombre</h2>
+                                <input id="nombre" class="input is-mas-chico is-rounded" type="text" id="nombre" placeholder="Nombre">
                             </div>
-                            <div class="has-text-centered mt-5">
-                                <h2 class="title is-4">Raza</h2>
-                                <input id="raza" class="input is-rounded" type="text" placeholder="Raza">
+                            <div class="has-text-centered mt-5 is-flex">
+                                <h2 for="raza_mascota" class="title is-4 mr-6">Raza</h2>
+                                <input id="raza" class="input is-mas-chico is-rounded" type="text" placeholder="Raza">
                             </div>
-                            <div class="has-text-centered mt-5">
-                                <h2 class="title is-4">Edad</h2>
-                                <input id="edad" class="input is-rounded" type="number" placeholder="Edad">
+                            <div class="has-text-centered mt-5 field is-horizontal">
+                                <h2 for="edad_mascota" class="title is-4 mr-6">Edad</h2>
+                                <input id="edad" class="input is-rounded is-mas-chico" type="number" placeholder="Edad">
                             </div>
-                            <div class="has-text-centered mt-5">
-                                <h2 class="title is-4">Peso</h2>
-                                <input id="peso" class="input is-rounded" type="number" placeholder="Peso">
+                            <div class="has-text-centered mt-5 field is-horizontal">
+                                <h2 for="peso_mascota" class="title is-4 mr-6">Peso</h2>
+                                <input id="peso" class="input is-rounded is-mas-chico" type="number" placeholder="Peso">
                             </div>
-                            <div class="has-text-centered mt-5">
-                                <h2 class="title is-4">Genero</h2>
+                            <div class="has-text-centered mt-5 field is-horizontal">
+                                <h2 for="genero_mascota" class="title is-4 mr-6 pr-6">Genero</h2>
                                 <div class="select is-rounded is-medium">
                                     <select id="genero">
                                         <option>Macho</option>
@@ -92,7 +92,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="step-content has-text-centered is-active">
+                        <div class="step-content has-text-centered">
                             <div class="field is-horizontal">
                             <div class="field-label is-normal">
                                 <label class="label">Facebook account</label>
@@ -141,7 +141,8 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="js/bulma-steps.js"></script>
     <script type="text/javascript" src="js/bulma-steps.min.js"></script>
+    <script type="text/javascript" src="js/bulma-steps.js"></script>
+    <script> bulmaSteps.attach(); </script>
 </body>
 </html>
