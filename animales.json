@@ -1,12 +1,166 @@
 {
-    "animales": [ 
+    "animales": [
         {
-        "animal": "Gato",
-        "raza": "Bengala"
+        "Nombre": "Megatron",
+        "Animal": "Gato",
+        "Raza": "Bengala",
+        "Edad": 3,
+        "Peso": 4,
+        "Genero": "Macho"
     },
     {
-        "animal": "Gato",
-        "raza": "Maine Coon"
+        "Nombre": "Juan",
+        "Animal": "Gato",
+        "Raza": "Maine Coon",
+        "Edad": 12,
+        "Peso": 7,
+        "Genero": "Macho"
+    },
+    {
+        "Nombre": "Alberto",
+        "Animal": "Gato",
+        "Raza": "Manx",
+        "Edad": 4,
+        "Peso": 6,
+        "Genero": "Macho"
+    },
+    {
+        "Nombre": "Macri",
+        "Animal": "Gato",
+        "Raza": "Russian Blue",
+        "Edad": 3,
+        "Peso": 4,
+        "Genero": "Macho"
+    },
+    {
+        "Nombre": "El Diego",
+        "Animal": "Gato",
+        "Raza": "Siberiano",
+        "Edad": 3,
+        "Peso": 4,
+        "Genero": "Macho"
+    },
+    {
+        "Nombre": "Jenni",
+        "Animal": "Gato",
+        "Raza": "American Curl",
+        "Edad": 5,
+        "Peso": 6,
+        "Genero": "Hembra"
+    },
+    {
+        "Nombre": "Juanita",
+        "Animal": "Gato",
+        "Raza": "Rosa",
+        "Edad": 3,
+        "Peso": 4,
+        "Genero": "Hembra"
+    },
+    {
+        "Nombre": "Nico",
+        "Animal":"Gato",
+        "Raza": "Pamela",
+        "Edad": 4,
+        "Peso": 7,
+        "Genero": "Hembra"
+    },
+    {
+        "Nombre": "Tu Super Vieja",
+        "Animal": "Gato",
+        "Raza": "Norwegian Forest",
+        "Edad": 9,
+        "Peso": 10,
+        "Genero": "Hembra"
+    },
+    {
+        "Nombre": "komi",
+        "Animal": "Gato",
+        "Raza": "Mau Egipcio",
+        "Edad": 5,
+        "Peso": 7,
+        "Genero": "Hembra"
+    },
+
+
+    {
+        "Nombre": "ñeri",
+        "Animal": "Perro",
+        "Raza": "San Bernardo",
+        "Edad": 3,
+        "Peso": 4,
+        "Genero":"Macho"
+    },
+    {
+        "Nombre": "doblas",
+        "Animal": "Perro",
+        "Raza": "Terranova",
+        "Edad": 12,
+        "Peso": 9,
+        "Genero": "Macho"
+    },
+    {
+        "Nombre": "pluto",
+        "Animal": "Perro",
+        "Raza": "Gran Danes",
+        "Edad":9,
+        "Peso":7,
+        "Genero": "Macho"
+    },
+    {
+        "Nombre": "dami",
+        "Animal": "Perro",
+        "Raza": "Mastin Frances",
+        "Edad":3,
+        "Peso":4,
+        "Genero": "Macho"
+    },
+    {
+        "Nombre": "dog",
+        "Animal": "Perro",
+        "Raza": "Pastor de Anatolia",
+        "Edad":9,
+        "Peso":14,
+        "Genero": "Macho"
+    },
+    {
+        "Nombre": "carem",
+        "Animal": "Perro",
+        "Raza": "Leonberger",
+        "Edad": 7,
+        "Peso": 16,
+        "Genero": "Hembra"
+    },
+    {
+        "Nombre": "pinga",
+        "Animal": "Perro",
+        "Raza": "Mastin Ingles",
+        "Edad": 9,
+        "Peso": 13,
+        "Genero": "Hembra"
+    },
+    {
+        "Nombre": "huevos",
+        "Animal": "Perro",
+        "Eaza": "Landseer",
+        "Edad": 3,
+        "Peso": 5,
+        "Genero": "Hembra"
+    },
+    {
+        "Nombre": "mili",
+        "Animal": "Perro",
+        "Raza": "Kangal",
+        "Edad": 9,
+        "Peso": 12,
+        "Genero": "Hembra"
+    },
+    {
+        "Nombre": "Matilda",
+        "Animal": "Perro",
+        "Raza": "Husky Siberiano",
+        "Edad": 9,
+        "Peso": 12,
+        "Genero": "Hembra"
     }
     ]   
 }
