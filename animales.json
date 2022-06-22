@@ -1,0 +1,12 @@
+{
+    "animales": [ 
+        {
+        "animal": "Gato",
+        "raza": "Bengala"
+    },
+    {
+        "animal": "Gato",
+        "raza": "Maine Coon"
+    }
+    ]   
+}
