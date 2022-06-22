@@ -55,10 +55,15 @@ button.button.icon.mascota:focus {
     height: 7em;
     position: relative;
     width: 7em;
+    margin-left: 270px;
 }
 .input.is-mas-chico{
     font-size: 1rem;
-    width: 350px;
+    width: 450px;
+    margin-right: 80px;
+}
+.select.centrado{
+    margin-right: 100px;
 }
 /* .titulo {
     font-size: 60px;
