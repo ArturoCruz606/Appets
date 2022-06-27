@@ -11,38 +11,58 @@ body {
 
 .button.borde-gris:hover {
     border-color: black;
-    color: black;
 }
 
 .button.borde-gris {
     border-color: gray;
     border-style: solid;
-    border-width: 3px;
-}
-.button.icon.mascota {
-    border-color: gray;
-    border-style: solid;
     border-width: 2px;
+}
+.button.borde-gris:focus {
+    border-color: #00d1b2;
+}
+.button.mascota.gato {
+    border-color: rgb(0, 0, 0);
+    background-image: url('../img/Gato.png');
+    border-width: 3px;
     height: 14em;
     width: 14em;
     border-radius: 10px;
 }
-.button.icon.mascota:hover {
+.button.mascota.perro {
+    border-color: rgb(0, 0, 0);
+    background-image: url('../img/Perro.png');
+    border-width: 3px;
+    height: 14em;
+    width: 14em;
+    border-radius: 10px;
+}
+.button.mascota.gato:focus {
+    border-color: #00d1b2;
+    border-width: 3px;
+}
+.button.mascota.perro:focus {
+    border-color: #00d1b2;
+    border-width: 3px;
+}
+/* .button.icon.mascota:hover {
     background-color: white;
     border-color: black;
     color: black;
-}
-button.button.icon.mascota:focus {
+} */
+/* button.button.icon.mascota:focus {
     background-color: rgb(75, 255, 47);
     border-color: black;
     color: black;
-}
+} */
 .mascota-elegida {
     border-radius: 10px;
     height: 10.5em;
     width: 10.5em;
 }
-
+.imput.borde-negro {
+    border-color: black;
+}
 .carga {
         -webkit-animation: spinAround 500ms infinite linear;
         animation: spinAround 500ms infinite linear;

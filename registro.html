@@ -77,16 +77,12 @@
                 </div>
                 <div class="step-content has-text-centered">
                             <div class="is-flex is-justify-content-center mt-0">
-                                <h3 id="gatoImg" class="title is-5 mt-4 mr-6 pr-6 mb-5">Gato</h3>
-                                <h3 id="perroImg" class="title is-5 mt-4 ml-6 pl-6 mb-5">Perro</h3>
+                                <h3 name="mascota" id="gato" class="title is-5 mt-4 mr-6 pr-6 mb-5">Gato</h3>
+                                <h3 name="mascota" id="perro" class="title is-5 mt-4 ml-6 pl-6 mb-5">Perro</h3>
                             </div>
                             <div>
-                                <button class="button icon mascota is-outlined">
-                                    <img src="img/Gato.png" width="200" height="200">
-                                </button>
-                                <button class="button icon mascota ml-3">
-                                    <img src="img/Perro.png" width="200" height="200">
-                                </button>
+                                <button class="button mascota gato "></button>
+                                <button class="button mascota perro ml-3"></button>
                             </div>
                         </div>
                         <div class="step-content has-text-centered">
@@ -99,7 +95,7 @@
                                 </div>
                                 <div class="field-body">
                                     <div class="field">
-                                        <input id="nombre" class="input is-rounded is-mas-chico" type="text" id="nombre" placeholder="Nombre">
+                                        <input id="nombre" class="input borde-negro is-rounded is-mas-chico" type="text" id="nombre" placeholder="Nombre">
                                     </div>
                                 </div>
                             </div>
@@ -140,9 +136,9 @@
                                 <div class="field-body">
                                     <div class="field">
                                         <input class="is-checkradio is-rtl"id="macho" name="sexo" type="radio" />
-                                        <label for="macho">Macho</label>
+                                        <label class="mr-6 title is-5" for="macho">Macho</label>
                                         <input class="is-checkradio is-rtl" id="hembra" name="sexo" type="radio" />
-                                        <label for="hembra">Hembra</label>
+                                        <label class="mr-6 title is-5" for="hembra">Hembra</label>
                                     </div>
                                 </div>
                             </div>
@@ -153,10 +149,10 @@
                     </div>
                     <div class="steps-actions">
                         <div class="steps-action">
-                        <a href="#" data-nav="previous" class="button is-rounded is-light">PREVIO</a>
+                        <a href="#" data-nav="previous" class="button is-rounded borde-gris">PREVIO</a>
                         </div>
                         <div class="steps-action">
-                        <a href="#" data-nav="next" class="button is-rounded is-light">SIGUIENTE</a>
+                        <a href="#" data-nav="next" class="button is-rounded borde-gris">SIGUIENTE</a>
                         </div>
                     </div>
                     </div>
