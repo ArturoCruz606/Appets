@@ -77,17 +77,17 @@
                 </div>
                 <div class="step-content has-text-centered">
                             <div class="is-flex is-justify-content-center mt-0">
-                                <h3 name="mascota" id="gato" class="title is-5 mt-4 mr-6 pr-6 mb-5">Gato</h3>
-                                <h3 name="mascota" id="perro" class="title is-5 mt-4 ml-6 pl-6 mb-5">Perro</h3>
+                                <h3 name="mascota" class="title is-5 mt-4 mr-6 pr-6 mb-5">Gato</h3>
+                                <h3 name="mascota" class="title is-5 mt-4 ml-6 pl-6 mb-5">Perro</h3>
                             </div>
                             <div>
-                                <button class="button mascota gato "></button>
-                                <button class="button mascota perro ml-3"></button>
+                                <button id="gato" class="button mascota gato "></button>
+                                <button id="perro" class="button mascota perro ml-3"></button>
                             </div>
                         </div>
                         <div class="step-content has-text-centered">
                             <div class="has-text-centered">
-                                <img id="imgMascota" class="mascota-elegida">
+                                <img id="" class="mascota-elegida">
                             </div>
                             <div class="mt-6 field is-horizontal has-text-centered">
                                 <div class="field-label is-normal">
@@ -131,7 +131,7 @@
                             </div>
                             <div class="has-text-centered mt-5 field is-horizontal">
                                 <div class="field-label is-normal">
-                                    <h2 for="genero_mascota" class="title is-5">Genero</h2>
+                                    <h2 id="tipoGenero" class="title is-5">Genero</h2>
                                 </div>
                                 <div class="field-body">
                                     <div class="field">
@@ -156,8 +156,8 @@
                         </div>
                     </div>
                     </div>
-                    <a href="index.html">
-                        <button id="" class="button is-rounded is-large borde-gris mt-6 mb-6">Confirmar</button>                        
+                    <a >
+                        <button id="confirmar" class="button is-rounded is-large borde-gris mt-6 mb-6">Confirmar</button>                        
                     </a>
                 </div>
             </div>
@@ -168,6 +168,8 @@
     </div>
     <script type="text/javascript" src="js/bulma-steps.min.js"></script>
     <script type="text/javascript" src="js/bulma-steps.js"></script>
+    <script type="text/javascript" src="js/registro.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script> bulmaSteps.attach(); </script>
 </body>
 </html>

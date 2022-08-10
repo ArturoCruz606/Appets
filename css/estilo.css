@@ -56,6 +56,8 @@ body {
     color: black;
 } */
 .mascota-elegida {
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
     border-radius: 10px;
     height: 10.5em;
     width: 10.5em;
