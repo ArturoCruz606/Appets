@@ -8,7 +8,6 @@ body {
     background-color: rgb(238, 184, 134);
     /* el primer color que usamos: blanchedalmond */
 }
-
 .button.borde-gris:hover {
     border-color: black;
 }
