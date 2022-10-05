@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPETS - Registro</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/bulma-steps.min.css">
+    <link rel="stylesheet" href="css/bulma-checkradio.min.css">
+    <link type="image/png" rel="icon" href="img/Icono para App.png">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="img/Icono para App.png" width="35" height="37">
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">
+                        Home
+                    </a>
+                    <a class="navbar-item">
+                        Mascotas
+                    </a>
+                    <hr class="navbar-divider">
+                </div>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-white" href="iniciarSesion.html">
+                            Iniciar Sesion
+                        </a>
+                        <a class="button is-light">
+                            Registrarse
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-quarter-desktop">
+            </div>
+            <div class="column is-half-desktop level">
+                <div class="has-text-centered mt-6">
+                    <img class="logo-carga" src="img/Icono para App.png" />
+                    <h1 class="title is-1 my-4 ">APPETS</h1>
+                </div>
+                <div class="has-text-centered mt-6">
+                    <div class="steps" id="stepsDemo">
+                        <div class="step-item is-success is-active" data-step-id="0">
+                            <div class="step-marker">1</div>
+                            <div class="step-details">
+                                <p class="step-title">Registrese</p>
+                            </div>
+                        </div>
+                        <div class="step-item " data-step-id="1">
+                            <div class="step-marker">2</div>
+                            <div class="step-details">
+                                <p class="step-title">Selecciona tu mascota</p>
+                            </div>
+                        </div>
+                        <div class="step-item" data-step-id="2">
+                            <div class="step-marker">3</div>
+                            <div class="step-details">
+                                <p class="step-title">Ingresa los datos del mismo</p>
+                            </div>
+                        </div>
+                        <div class="step-item" data-step-id="3">
+                            <div class="step-marker">4</div>
+                            <div class="step-details">
+                                <p class="step-title">Finalizado</p>
+                            </div>
+                        </div>
+                        <div class="steps-content">
+                            <div class="step-content has-text-centered is-active">
+                                <div class="field is-horizontal">
+                                    <div class="field-label is-normal ">
+                                        <label class="title is-5">Email</label>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <div class="control">
+                                                <input class="input is-mas-chico is-rounded" name="facebook"
+                                                    id="facebook" type="text" placeholder="ejemplo@mail.com" autofocus
+                                                    data-validate="require">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="field is-horizontal">
+                                    <div class="field-label is-normal">
+                                        <label class="title is-5">Cree una Contraseña</label>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <div class="control">
+                                                <input class="input is-mas-chico is-rounded" name="twitter" id="twitter"
+                                                    type="password" placeholder="ejemplo123" autofocus
+                                                    data-validate="require">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="step-content has-text-centered">
+                                <div class="is-flex is-justify-content-center mt-0">
+                                    <h3 name="mascota" class="title is-5 mt-4 mr-6 pr-6 mb-5">Gato</h3>
+                                    <h3 name="mascota" class="title is-5 mt-4 ml-6 pl-6 mb-5">Perro</h3>
+                                </div>
+                                <div>
+                                    <button id="gato" class="button mascota gato "></button>
+                                    <button id="perro" class="button mascota perro ml-3"></button>
+                                </div>
+                            </div>
+                            <div class="step-content has-text-centered">
+                                <div class="has-text-centered">
+                                    <img id="" class="mascota-elegida">
+                                </div>
+                                <div class="mt-6 field is-horizontal has-text-centered">
+                                    <div class="field-label is-normal">
+                                        <h2 for="nombre_mascota" class="title is-5">Nombre</h2>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <input id="nombre" class="input borde-negro is-rounded is-mas-chico"
+                                                type="text" id="nombre" placeholder="Nombre">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="has-text-centered mt-5 is-flex field is-horizontal">
+                                    <div class="field-label is-normal">
+                                        <h2 for="raza_mascota" class="title is-5">Raza</h2>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <input id="raza" class="input is-rounded is-mas-chico" type="text"
+                                                placeholder="Raza">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="has-text-centered mt-5 field is-horizontal">
+                                    <div class="field-label is-normal">
+                                        <h2 for="edad_mascota" class="title is-5">Edad</h2>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <input id="edad" class="input is-rounded is-mas-chico" type="number" min="0"
+                                                max="30" placeholder="Edad">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="has-text-centered mt-5 field is-horizontal">
+                                    <div class="field-label is-normal">
+                                        <h2 for="peso_mascota" class="title is-5">Peso</h2>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <input id="peso" class="input is-rounded is-mas-chico" type="number" min="0"
+                                                max="200" placeholder="Peso">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="has-text-centered mt-5 field is-horizontal">
+                                    <div class="field-label is-normal">
+                                        <h2 id="tipoGenero" class="title is-5">Genero</h2>
+                                    </div>
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <input class="is-checkradio is-rtl" id="macho" name="sexo" type="radio" />
+                                            <label class="mr-6 title is-5" for="macho">Macho</label>
+                                            <input class="is-checkradio is-rtl" id="hembra" name="sexo" type="radio" />
+                                            <label class="mr-6 title is-5" for="hembra">Hembra</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step-content has-text-centered">
+                                <h1 class="title is-4 m-6">Tu Cuenta ha sido creada!</h1>
+                            </div>
+                        </div>
+                        <div class="steps-actions">
+                            <div class="steps-action">
+                                <a href="#" data-nav="previous" class="button is-rounded borde-gris">PREVIO</a>
+                            </div>
+                            <div class="steps-action">
+                                <a href="#" data-nav="next" class="button is-rounded borde-gris">SIGUIENTE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a>
+                        <button id="confirmar"
+                            class="button is-rounded is-large borde-gris mt-6 mb-6">Confirmar</button>
+                    </a>
+                </div>
+            </div>
+            <div class="column is-one-quarter-desktop">
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/bulma-steps.min.js"></script>
+    <script type="text/javascript" src="js/bulma-steps.js"></script>
+    <script type="text/javascript" src="js/registro.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script> bulmaSteps.attach(); </script>
+</body>
+
+</html>
